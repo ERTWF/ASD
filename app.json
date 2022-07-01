@@ -1,0 +1,75 @@
+{
+    "name": "ميوزك كوبرا",
+    "logo": "https://telegra.ph/file/d011fd2a43678ad83eaab.jpg",
+    "description": "افضل سورسات التليكرام",
+    "keywords": ["tgmusicbot", "voice chat", "telegram"],
+    "repository": "https://github.com/ERTWF/ASD",
+    "stack": "container",
+    "env": {
+        "API_HASH": {
+            "description": "قم بوضع الايبي هاش",
+            "required": true
+        },
+        "API_ID": {
+            "description": "ايبي ايدي مطلوب",
+            "required": true
+        },
+        "ASSISTANT_USERNAME": {
+            "description": "معرف حساب المساعد بدون '@')",
+            "required": true,
+            "value": "Ayano_OP"
+        },
+        "START_PIC": {
+            "description": "صورة البوت مطلوبة",
+            "required": true,
+            "value": "https://telegra.ph/file/254c862a85ccf3b86ee09.mp4"
+        },
+        "BOT_TOKEN": {
+            "description": "توكن بوتك حط",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "معرف بوتك بدون '@')",
+            "required": true,
+            "value": "Ayano_Music_bot"
+        },
+        "PROFILE_CHANNEL": {
+            "description": "قناتك خلي معرفها..",
+            "required": true,
+            "value": "https://t.me/DpZ_Zone"
+        },
+        "OWNER_USERNAME": {
+            "description": "معرفك بدون@ كمطور",
+            "required": true,
+            "value": "itz_unknown_person"
+        },
+        "STRING_SESSION": {
+            "description": "كود بايروجرام",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "ايدي المطورين حط ايديك كمطور",
+            "required": true,
+            "value": "1323056"
+            
+        },
+        "SUPPORT_GROUP": {
+            "description": "معرف كروبك خلي",
+            "required": true,
+            "value": "https://t.me/KRISTY_xDDD"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "قناتك هم خليها",
+            "required": true,
+            "value": "https://t.me/DpZ_Zone"
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
