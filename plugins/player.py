@@ -328,7 +328,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🔊 𝐌𝐮𝐬𝐢𝐜 😕 𝐍𝐨𝐭 📵 𝐅𝐨𝐮𝐧𝐝❗️\n💞 𝐓𝐫𝐲 ♨️ 𝐀𝐧𝐨𝐭𝐡𝐞𝐫 🌷...**"
+                "** عذرآ فيني مشڪلة...**"
             )
             print(str(e))
             return
