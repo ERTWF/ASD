@@ -328,7 +328,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "** عذرآ فيني مشڪلة...**"
+                "** اكتب الاسم صح ياورع...**"
             )
             print(str(e))
             return
