@@ -17,7 +17,7 @@
         "ASSISTANT_USERNAME": {
             "description": "معرف حساب المساعد بدون '@')",
             "required": true,
-            "value": "Ayano_OP"
+            "value": "ABNADLlB"
         },
         "START_PIC": {
             "description": "صورة البوت مطلوبة",
@@ -31,17 +31,17 @@
         "BOT_USERNAME": {
             "description": "معرف بوتك بدون '@')",
             "required": true,
-            "value": "Ayano_Music_bot"
+            "value": "RREWQYUBOT"
         },
         "PROFILE_CHANNEL": {
-            "description": "قناتك خلي معرفها..",
+            "description": "رابط قناتك خلي .",
             "required": true,
-            "value": "https://t.me/DpZ_Zone"
+            "value": "https://t.me/VFF35"
         },
         "OWNER_USERNAME": {
             "description": "معرفك بدون@ كمطور",
             "required": true,
-            "value": "itz_unknown_person"
+            "value": "QABNADLIB"
         },
         "STRING_SESSION": {
             "description": "كود بايروجرام",
@@ -50,18 +50,18 @@
         "SUDO_USERS": {
             "description": "ايدي المطورين حط ايديك كمطور",
             "required": true,
-            "value": "1323056"
+            "value": "1939538780"
             
         },
         "SUPPORT_GROUP": {
-            "description": "معرف كروبك خلي",
+            "description": "رابط كروب الدعم حطه",
             "required": true,
-            "value": "https://t.me/KRISTY_xDDD"
+            "value": "https://t.me/faqek"
         },
         "UPDATES_CHANNEL": {
-            "description": "قناتك هم خليها",
+            "description": "رابط قناتك الثانيه ازا ماعندك غير وحده حطو نفس يلي فوك",
             "required": true,
-            "value": "https://t.me/DpZ_Zone"
+            "value": "https://t.me/VFF34"
         }
     },
     "buildpacks": [
