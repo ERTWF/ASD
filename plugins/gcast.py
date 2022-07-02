@@ -5,16 +5,16 @@ from pyrogram.errors import UserAlreadyParticipant
 from modules.clientbot.clientbot import client as aditya
 from modules.config import SUDO_USERS
 
-@Client.on_message(filters.command(["gcast", "broadcast"]))
+@Client.on_message(filters.command(["هينه", "broadcast"]))
 async def broadcast(_, message: Message):
     sent=0
     failed=0
     if message.from_user.id not in SUDO_USERS:
         return
     else:
-        wtf = await message.reply("**`🥀 𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭 ...`**")
+        wtf = await message.reply("**`هاد حمار وش تبي اهين بي ...`**")
         if not message.reply_to_message:
-            await wtf.edit("**🎸 𝑷𝒍𝒆𝒂𝒔𝒆 𝑹𝒆𝒑𝒍𝒚 𝑻𝒐 𝒂 𝑴𝒆𝒔𝒔𝒂𝒈𝒆 ...**")
+            await wtf.edit("**صار لك جرجف انجب وزا تندك بسيادك اكتلك وزرب على كبرك 🖐💩 ...**")
             return
         lmao = message.reply_to_message.text
         async for dialog in aditya.iter_dialogs():
