@@ -34,7 +34,7 @@ async def start_private(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🥇 ¦ الــكروب", url=f"{SUPPORT_GROUP}"
+                        "🥇 ¦ جروب الدعم", url=f"{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
                         "⚙️ ¦ الـسـورس", url=f"{UPDATES_CHANNEL}"
